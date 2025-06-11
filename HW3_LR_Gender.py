@@ -49,7 +49,7 @@ for threshold in np.arange(0, 1.01, 0.01):
             "Youden Index": round(youden, 4)
         }
 
-print("✅ 最佳 Logistic Regression 模型結果：")
+print("Logistic Regression 模型結果：")
 for k, v in best_result.items():
     print(f"{k}: {v}")
 
